@@ -5,7 +5,7 @@ before="$(date +%s)"
 x=0
 while [ $x -le 10000 ]
 do
-  wget http://127.0.0.1 -O /dev/null -q
+  wget http://intranet.eastco.sa3 -O /dev/null -q
   x=$(( $x + 1 ))
 done
 
